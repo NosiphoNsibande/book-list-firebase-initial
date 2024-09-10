@@ -66,7 +66,10 @@ function LoginPage() {
       <div className="container login-page">
         <section>
           <h1>Welcome to the Book App</h1>
-          <p>Login or create an account to continue</p>
+          <p>Login or create an account to continue
+             <br/>
+            <span>Reset your password, using forgot password option</span>
+          </p>
           <div className="login-type">
             <button
               className={`btn ${loginType == 'login' ? 'selected' : ''}`}
@@ -79,7 +82,10 @@ function LoginPage() {
               Signup
             </button>
           </div>
+
+          
           <form className="add-form login">
+          <hr/>
             <div className="form-control">
               <label>Email *</label>
               <input onChange={(e) => { handleCredentials(e) }} type="text" name="email" placeholder="Enter your email" />

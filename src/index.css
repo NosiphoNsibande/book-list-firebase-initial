@@ -145,7 +145,7 @@ input:focus {
 /* container */
 
 .container {
-  width: 1400px;
+  width: 800px;
   max-width: 100%;
   margin: auto;
   overflow: auto;
@@ -166,6 +166,7 @@ input:focus {
 
 .container h1 {
   margin-bottom: 20px;
+  font-size: 35px;
 }
 .container .header-btns {
   position: absolute;
@@ -181,7 +182,7 @@ input:focus {
 
 .container button.btn {
   margin-top: 0;
-  background: #e3e3e3;
+  background: #01ff227d;
   color: #000;
 }
 
@@ -490,6 +491,7 @@ table tr th {
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
 .login-page h1, p {
@@ -518,7 +520,7 @@ table tr th {
 
 .login-page p.forgot-password {
   margin-top: 12px;
-  color: #0000EE;
+  color: #ff10b3;
   text-decoration: underline;
   font-size: 14px;
   cursor: pointer;
